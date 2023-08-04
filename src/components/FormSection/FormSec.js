@@ -39,11 +39,11 @@ function Form() {
                 inputClass :"invalid"
             })
          
-        } else if(!isValidUrl(url)) {
+        /*} else if(!isValidUrl(url)) {
             setErrors({
                 msg : "Invalid URL",
                 inputClass :"invalid"
-            })
+            })*/
         }else {
             getData(url)
         }
